@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="home">
+    <div class="content">
+        <div class="stars"></div>
+        <img class="bgc" src="sky.jpg" width="100%" alt="">
+        <h3 class="title">欢迎来到我的个人网站</h3>
+        <h3 class="titles">今天也要加油鸭</h3>
+        <img class="icon" src="xx.png" alt="">
+        <div class='ribbon'>
+            <a href='./home.html'><span>Home</span></a>
+            <a href='./about.html'><span>About</span></a>
+            <a href='./form.html'><span>Form</span></a>
+
+        </div>
+
+    </div>
+    <div class="introduce">
+        <div class="introduce_item">
+            <img class="introduce_item_img" src="sky.jpg" alt="">
+            <span class="introduce_item_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae esse est ex fugiat fugit, id libero minima molestiae nesciunt officia, porro rem repellat sapiente veritatis voluptatem? Eligendi hic pariatur sint!</span>
+        </div>
+        <div class="introduce_item">
+            <span class="introduce_item_titles">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur culpa distinctio eum fuga labore nisi porro ratione ut. At ea, est et impedit libero nisi quas sint sit soluta.</span>
+                <img class="introduce_item_img" src="sky.jpg" alt="">
+        </div>
+        <div class="introduce_item">
+            <img class="introduce_item_img" src="sky.jpg" alt="">
+            <span class="introduce_item_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi dolores officia sed soluta. Doloremque eum id iure mollitia tempora! Ducimus eos ex iste, iusto laboriosam pariatur provident quisquam unde?</span>
+        </div>
+        <div class="introduce_item">
+            <span class="introduce_item_titles">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dicta ex, in nesciunt ratione ut vero! Accusantium delectus deleniti, deserunt ea enim est eum exercitationem laborum numquam placeat possimus tempore!</span>
+            <img class="introduce_item_img" src="sky.jpg" alt="">
+        </div>
+    </div>
+    <audio autoplay="autoplay" id="audio" loop="loop">
+        <source src="audio.mp3" type="audio/MP3">
+    </audio>
+    <img class="music_img" src="icon-1.png" alt="">
+</div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
